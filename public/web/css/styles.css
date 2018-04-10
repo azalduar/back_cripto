@@ -1,0 +1,3801 @@
+@font-face {
+  font-family: 'Gotham Thin';
+  src: url('../fonts/Gotham-Thin.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Gotham-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Gotham-Thin.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Gotham-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Gotham-Thin.svg#2612f69d108fca39cb109c03ae310193') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url('../fonts/ufonts.com_gotham-medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ufonts.com_gotham-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ufonts.com_gotham-medium.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ufonts.com_gotham-medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ufonts.com_gotham-medium.svg#0fbe3a09622d8fb1f474f00917396ba1') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+@font-face {
+  font-family: 'GothamHTFXLight';
+  src: url('../fonts/gothamhtf-xlight.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/gothamhtf-xlight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/gothamhtf-xlight.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/gothamhtf-xlight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/othamhtf-xlight.svg#3d7d415a0138f9c89a55a89e66ca0920') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('../fonts/ufonts.com_gotham-light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ufonts.com_gotham-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ufonts.com_gotham-light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ufonts.com_gotham-light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ufonts.com_gotham-light.svg#0fdc6c734a7ca54436fb28af9ab2f202') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+@font-face {
+  font-family: 'Champagne & Limousines';
+  src: url('../fonts/Champagne & Limousines.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Champagne & Limousines.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Champagne & Limousines.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Champagne & Limousines.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Champagne & Limousines.svg#4e399d2ab94c45fe49fcd26d7ee0c800') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/Gotham-Book.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Gotham-Book.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Gotham-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Gotham-Book.svg#7510147900d23fa3ad697e74bf146ea2') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+
+/*--------- INICIO HOME -------------*/
+
+header{
+	height: 132px;
+	background: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+.logo {
+    padding-top: 23px;
+}
+.twitter{
+	background-image: url(../images/logo-twitter.png);
+	width: 35px;
+  height: 33px;
+  display: inline-block;
+}
+.facebook{
+	background-image: url(../images/logo-facebook.png);
+	width: 34px;
+  height: 33px;
+  display: inline-block;
+}
+.redes {
+  padding: 23px 0;
+  height: 82px;
+}
+.boton-cuenta {
+  background: #55c5d8;
+  width: auto;
+  height: 32px;
+  padding: 14px 7px;
+  text-align: center;
+  font-family: 'Gotham Medium';
+	font-size: 7.0275pt;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .7px;
+}
+.links-cuenta {
+    width: 162px;
+    height: 13px;
+    font-family: 'Gotham Medium';
+    font-size: 6pt;
+    color: #000;
+    margin: 6px 0 0 34px;
+    text-align: right;
+}
+.links-cuenta:hover{
+	cursor: pointer;
+}
+p.registrarme {
+    float: right;
+}
+p.inicio-sesion {
+    float: left;
+}
+.busqueda{
+	padding-top:31px;
+	height: 19px; 
+}
+.busqueda button.btn.btn-default {
+  border: none;
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group{
+	margin-left: 0;
+}
+.busqueda input.form-control {
+  border-radius: 10px !important;
+  height: 20px !important;
+}
+.busqueda .btn{
+	padding: 2px 12px;
+}
+.row.formulario {
+  width: 423px;
+  height: 351px;
+  margin: -18px 0 0 -424px;
+  background: #F5F5F5;
+  z-index: 100;
+  position: absolute;
+}
+.title-form {
+  font-family: 'GothamHTFXLight';
+  font-size: 17.97px;
+  color: #FFFFFF;
+  background: #4D5659;
+  height: 53px;
+  margin: 0;
+  display: table;
+  width: 100%;
+}
+.title-form p {
+  text-align: right;
+  margin-right: 42px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 47px;
+}
+.title-inicio {
+  font-size: 18px;
+  color: #1C1C1C;
+  text-align: center;
+  width: 100%;
+  margin: 19px 0;
+  font-family: 'GothamHTFXLight';
+}
+.olvido {
+  font-size: 10px;
+  text-align: right;
+  font-family: 'GothamHTFXLight';
+  color: #000;
+}
+.restrar-cuenta{
+  font-size: 12px;
+  text-align: center;
+  font-family: 'GothamHTFXLight';
+  color: #55c5d8;  
+}
+.btn-inicio {
+    background: #4D5659;
+    color: #fff;
+    font-family: 'GothamHTFXLight';
+    font-size: 10px;
+    margin: -5px 45px 22px 0;
+    display: block;
+    border: none;
+    height: 36px;
+    width: 126px;
+    float: right;
+}
+.form-inicio .form-group{
+  margin: 0 auto 15px auto;
+}
+a.cerrar-form {
+    display: block;
+    margin-left: 35px;
+    font-size: 28px;
+    color: #fff;
+    margin-top: 7px;
+}
+.form-inicio input, textarea.form-control{
+  background: #fff;
+}
+.form-inicio label, select{
+  line-height: 17.24px;
+  font-family: 'GothamHTFXLight';
+  font-size: 12.66pt;
+  color: #000;
+}
+.form-inicio input, textarea.form-control{
+  background: #fff;
+  color: #A0A0A0;
+  line-height: 17.24px;
+  font-family: 'GothamHTFXLight';
+  font-size: 10.5pt;
+  border:none;
+}
+.formulario{
+  display: none; 
+}
+ul.nav.nav-justified li>a {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 9.9pt;
+    color: #181919;
+    font-weight: 400;
+}
+
+ul.nav.nav-justified li>a:hover {
+	color: #55c5d8 !important;
+	text-decoration: underline;
+	font-family: 'PT Sans Narrow', sans-serif !important;
+	background: none;
+}
+
+.nav-justified>li{
+	width: 17.9%;
+}
+
+li.active>a{
+	color: #55c5d8 !important;
+	text-decoration: underline;
+	font-family: 'PT Sans Narrow', sans-serif !important;
+	font-weight: 700 !important;
+	line-height: 16px !important;
+} 
+
+.navbar-default {
+  background-color: #fff;
+  border-bottom: 1px solid #55c5d8;
+  height: 130px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+}
+div#bs-example-navbar-collapse-1 {
+  margin-top: 47px;
+}
+button#boton-menu {
+  margin-top: 25px;
+  margin-right: 50px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #55c5d8;
+}
+ul.nav.navbar-nav {
+  z-index: 1000;
+  position: absolute;
+  text-align: center;
+  padding: 0;
+}
+ul.nav.navbar-nav li>a {
+  color: #55c5d8;
+  background:#fff;
+}
+.navbar-default.quienes .navbar-nav.quienes>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+  color: #fff;
+}
+nav.navbar.navbar-default.quienes{
+    background: #4D5659;
+    height: 100px;
+    border-color: none;
+}
+ul.nav.navbar-nav.quienes li>a {
+  color: #55c5d8;
+  background:#4D5659;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+  background: #fff;
+}
+.row.cajas-1 {
+    margin: 0 auto;
+}
+#quienes-somos {
+  margin-top: 22px;
+}
+.container.contenido{
+	width: 90%;
+  margin-top: 90px;
+}
+.cajas {
+  margin-top: 75px;
+}
+.big-box {
+  padding: 0px 1px;
+}
+.caja-grande{
+  background-color: rgba(0, 0, 0, .8);
+  height: 583px;
+}
+.caja-grande .titulo{
+	width: 43%;
+	font-family: 'GothamHTFXLight';
+	font-size: 40.32pt;
+	color: #fff;
+	line-height: 54px;
+	border-bottom: 1.8px solid #55c5d8;
+	height: 190px;
+	display: inline-block;
+	margin: 50px;
+}
+.caja-grande .icono {
+    display: inline-block;
+    float: right;
+    margin: 45px;
+}
+.caja-grande .texto {
+    font-family: 'Gotham Light';
+    font-size: 10.3pt;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    width: 74%;
+    margin: 30px 50px 50px 50px;
+    font-weight: 200;
+}
+.flecha {
+    width: 20px;
+    height: 30px;
+    background-image: url(../images/flecha.png);
+    cursor: pointer;
+    float: right;
+    margin: 75px 38px 0 0;
+}
+.caja{
+	height: 290px;
+	background-color: rgba(0, 0, 0, .8);
+  margin: 1px;
+  color: #fff;
+}
+.fecha-blog-caja {
+    margin-top: 13px;
+    width: 43%;
+    display: inline-block;
+}
+.fecha-blog-caja p{
+    display: inline-block;
+}
+.fecha-blog-caja .dia{
+  font-size: 18.68pt;
+  font-family: 'Champagne & Limousines';
+}
+.fecha-blog-caja .ano-mes{
+  font-size: 5.56pt;
+  font-family: 'Gotham Medium';
+  margin-left: 4px;
+}
+.redes-caja{
+  width: 52%;
+  display: inline-block;
+  text-align: right;
+}
+.facebook-caja{
+  background-image:url(../images/logo-facebook-blanco.png);
+  display: inline-block;
+  width: 20px;
+  height: 19px;
+  margin:0 3px;
+}
+.twitter-caja{
+  background-image:url(../images/logo-twitter-blanco.png);
+  display: inline-block;
+  width: 20px;
+  height: 19px; 
+}
+.categoria-blog-caja{
+  font-family: 'Gotham Book';
+  font-size: 9.46pt;
+  color: #55C5D8;
+  letter-spacing: .5px;
+  margin: 10px 0 5px 0; 
+}
+.titulo-blog-caja {
+  font-family: 'Gotham Book';
+   font-size: 16.46pt;
+   color: #fff;
+   border-bottom: 1px solid #55C5D8;
+   line-height: 28px;
+   height: 68px;
+}
+.titulo-blog-caja p {
+    width: 50%;
+}
+.contenido-blog-caja {
+  font-family: 'Gotham Light';
+  font-size: 10.3pt;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #fff;
+  width: 74%;
+  margin-top: 15px;
+}
+.ver{
+  font-size: 10.47pt;
+  font-family: 'Gotham Light';
+  text-decoration: none;
+  color: #55C5D8;
+}
+.fecha-evento {
+    margin-top: -13px;
+    width: 40%;
+    display: inline-block;
+}
+.fecha-evento .dia-evento{
+  font-family: 'Champagne & Limousines';
+  font-size: 70pt;
+  color: #55C5D8;
+}
+.fecha-evento .ano-mes-evento {
+    font-family: 'Gotham Book';
+    font-size: 24pt;
+    color: #55C5D8;
+    margin-top: -36px;
+    line-height: 30px;
+    text-align: center;
+}
+.redes-caja-evento {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    float: right;
+    margin-top: 20px;
+}
+.contenido-evento{
+  text-align: center;
+  line-height: 22px;
+  margin-top: 20px;
+}
+
+.contenido-evento .bold-caja-evento{
+  text-align: center;
+  line-height: 8px;
+  font-size: 17.5pt;
+  font-family: 'Gotham Book';
+}
+.texto-evento-caja{
+  font-family: 'Gotham Light';
+  font-size: 15.5pt;
+  letter-spacing: .5px;
+}
+.cruz {
+    background-image: url(../images/cruz-blanca.png);
+    width: 23px;
+    height: 23px;
+    float: right;
+}
+.texto-caja-foro{
+    font-family: 'Gotham Light';
+    font-size: 11.3pt;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 25px 0 0 20px;
+    width: 80%
+}
+.icono-caja-foro {
+  background-image: url(../images/icono-foro.png);
+  height: 30px;
+  width: 28px;
+  display: block;
+  margin: 0px 0 15px 6px;
+}
+.titulo-foro-caja {
+  margin: 90px 0 0 25px;
+} 
+.titulo-foro-caja p{
+  line-height:21px;
+}
+p.bold-caja-foro{
+  font-family: 'Gotham Book';
+  font-size: 17.175pt;
+}
+p.normal-caja-foro{
+  font-family: 'Gotham Light';
+  font-size: 17.175pt;
+  letter-spacing: 1.5px;
+}
+.flecha.foro {
+    margin: -50px 15px 0 0;
+}
+.texto-eventos-caja {
+  font-family: 'Gotham Light';
+  font-size: 10.5pt;
+  width: 60%;
+  margin: 27px 0 0 43px;
+}
+.titulo-eventos-caja {
+  font-size: 28px;
+  font-family: 'Gotham Book';
+  margin: 30px 0 0 65px;
+}
+
+.titulo-eventos-caja:before {
+    content: ' ';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-image: url(../images/icono-eventos.png);
+    margin: 5px 0 0 -54px;
+}
+.flecha.eventos {
+  margin: -20px 15px 0 0;
+}
+
+.row.cajas-2 {
+  margin: 0 auto;
+}
+.caja-2{
+  height: 330px;
+  background-color: rgba(0, 0, 0, .8);
+  margin: 1px;
+  color: #fff;
+  padding: 7px 24px 0 20px;
+}
+.caja-2 .cruz-grande {
+    margin: 8px -11px 0 0;
+}
+.cruz-grande {
+    background-image: url(../images/cruz-2.png);
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-top: 25px;
+    position: relative;
+    bottom: 10px;
+}
+.caja-2 .texto-evento-caja {
+  font-family: 'Gotham Light';
+  font-size: 18.5pt;
+  letter-spacing: .5px;
+  line-height: 27px;
+}
+.twitter-caja-2{
+  background-image: url(../images/logo-twitter-grande.png);
+  height: 28px;
+  width: 28px;
+  display: inline-block;
+}
+.facebook-caja-2{
+  background-image: url(../images/logo-facebook-grande.png);
+  height: 28px;
+  width: 28px;
+  display: inline-block;
+}
+.caja-2 .contenido-blog-caja {
+    font-family: 'Gotham Light';
+    font-size: 10.3pt;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #fff;
+    width: 90%;
+    margin-top: 15px;
+}
+
+.caja-2 .ver {
+    font-size: 10.47pt;
+    font-family: 'Gotham Medium';
+    text-decoration: none;
+    color: #55C5D8;
+    display: block;
+    margin: 22px 0 0 0;
+}
+.row.cajas-3 {
+  margin: 0px auto 0 auto;
+}
+.caja-3{
+  height: 330px;
+  background-color: rgba(0, 0, 0, .8);
+  margin: 1px;
+  color: #fff;
+  padding: 7px 24px 0 20px;
+}
+.caja-3-evento{
+  height: 330px;
+  background-color: rgba(0, 0, 0, .8);
+  margin: 1px;
+  color: #fff;
+  padding: 7px 24px 0 20px;
+}
+.imagen-caja {
+  background-image: url(../images/imagen-caja.png);
+  height: 330px;
+  width: 55%;
+  margin: -45px -20px;
+  display: inline-block;
+  float: left;
+}
+.redes-caja-3{
+  z-index: 10000;
+  width: 18%;
+  opacity: 0.7;
+}
+.contenedor-caja-imagen{
+  width: 45%;
+  display: inline-block;
+  float: right;
+  margin-top: -17px;
+}
+.titulo-caja-imagen {
+    font-size: 18pt;
+    font-family: 'Gotham Book';
+    line-height: 28px;
+    border-bottom: 1px solid #55C5D8;
+    height: 130px;
+    width: 100%;
+}
+.contenido-caja-imagen {
+  margin: 15px 0 0 0;
+  font-size: 10.5pt;
+  font-family: 'Gotham Light';
+}
+.caja-3 .ver{    
+  font-size: 10.47pt;
+  font-family: 'Gotham Medium';
+  text-decoration: none;
+  color: #55C5D8;
+  display: block;
+  text-align: center;
+}
+.caja-3 .editar-articulo{    
+  font-size: 10.47pt;
+  font-family: 'Gotham Medium';
+  text-decoration: none;
+  color: #55C5D8;
+  display: block;
+  text-align: center;
+}
+
+.caja-3 .cruz-grande{
+  margin: 10px 0 0 0;
+}
+.caja-3 .contenido-evento {
+    width: 88%;
+    margin: 20px auto;
+}
+.fecha-caja-info {
+  display: inline-block;
+  width: 60%;
+   color: #3C3C3B; 
+}
+.fecha-caja-info p.dia{
+  display: inline-block;
+  font-size: 46.5pt;
+  font-family: 'Champagne & Limousines';
+}
+.fecha-caja-info p.ano-mes{
+  display: inline-block;
+  font-size: 16.75pt;
+  font-family: 'Gotham Light';
+  line-height: 26px;
+}
+.texto-info {
+  color: #4D5659;
+  font-size: 13.5pt;
+  font-family: 'Gotham Book';
+  line-height: 15px;
+  width: 95%;
+  margin: 10px auto;
+  text-align: justify;
+}
+p.info {
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  color: #4D5659;
+  font-size: 12pt;
+  font-family: 'Gotham Medium';
+  width: 70%;
+}
+a.ampliar {
+  color: #706F6F;
+  text-align: center;
+  display: block;
+  font-family: 'Gotham Medium';
+  font-size: 11.25pt;
+}
+.row.cajas-4 {
+  margin: 0 auto;
+}
+.caja-4{
+  height: 339px;
+  background-color: rgba(0, 0, 0, .8);
+  margin: 1px;
+  color: #fff;
+  padding: 7px 24px 0 20px;
+}
+.title-caja4{
+  font-family: 'Gotham Light';
+  font-size: 25.5pt;
+  color: #55C5D8;
+  width: 40%;
+  display: inline-block;
+  margin: 13px 0 0 0;
+}
+.texto-caja4 {
+  font-size: 16.5pt;
+  font-family: 'Gotham Book';
+  width: 95%;
+  text-align: center;
+  margin: 45px auto 0 auto;
+  letter-spacing: 1px;
+}
+.participa{
+  color: #55C5D8;
+  font-family: 'Gotham Light';
+  font-size: 15pt;
+  text-align: center;
+  display: block;
+  margin-top: 32px;
+  letter-spacing: 1px;
+}
+.flecha-ver-mas{
+  background-image: url(../images/flecha-ver-mas.svg);
+  height: 50px;
+  width: 50px;
+  margin: 100px auto;
+}
+
+.caja-3.hover{
+  display: none;
+  background: #C6C6C6;
+  height: 330px;
+}
+.contenedor-caja-evento{
+  padding: 0 3px 0 1px;
+  height: 330px;  
+}
+.contenedor-caja-evento.peque {
+  padding: 1px 0px 0 1px;
+  height: 292px;
+}
+.caja-3.hover.peque{
+  height: 290px;
+  display: none;
+}
+.caja-3.hover.peque .fecha-caja-info {
+    width: 100%;
+}
+.caja-3.hover.peque .fecha-caja-info p.dia {
+    font-size: 30.5pt;;
+}
+.caja-3.hover.peque .fecha-caja-info p.ano-mes {
+    font-size: 9.75pt;
+    line-height: 15px;
+}
+
+footer {
+  height: 135px;
+  margin-top: 40px;
+  display: table;
+  width: 100%;
+  background: #4D5659;
+  color: #fff;
+  font-size: 8.25pt;
+  font-family: 'Gotham Light';
+  bottom: 0 !important;
+}
+.container.footer {
+  display: table-cell;
+  vertical-align: middle;
+}
+.contenedor-footer {
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+.izquierda-footer{
+  display: inline-block;
+  height: 70px;
+  vertical-align: middle;
+}
+.logo-footer img{
+  width: 141px;
+  height: 88px;
+}
+.derecha-footer{
+  display: inline-block;
+  height: 70px;
+  vertical-align: middle;
+}
+.telefonos{
+  margin-top: 20px;
+}
+.email{
+  margin-top: 20px;
+}
+.email:before{
+  position: absolute;
+  background-image: url(../images/icono-email.png);
+  width: 22px;
+  height: 15px;
+  content: ' ';
+  margin: -2px 0 0 -43px;
+}
+
+.telefonos:before{
+  position: absolute;
+  background-image: url(../images/icono-telefono.svg);
+  width: 19px;
+  height: 19px;   
+  content: ' ';
+  margin: -7px 0 0 -42px;
+}
+.centro-footer{
+  display: inline-block;
+  height: 70px;
+  vertical-align: middle;
+}
+.derechos-autor {
+    margin-top: 50px;
+}
+/*--------- FIN HOME -------------*/
+
+/*--------- INICIO QUIENES SOMOS -------------*/
+.container.contenido-quienes {
+    margin-top: 85px;
+}
+.logo-quienes {
+    padding-top: 23px;
+}
+
+.contenedor-header-quienes .barra li>a{
+  color: #fff !important;
+}
+.contenedor-header-quienes li.active>a{
+  color: #55c5d8 !important;
+}
+.contenedor-header-quienes .contenedor-cuenta {
+  color: #fff !important;
+}
+.contenedor-header-quienes .contenedor-cuenta .links-cuenta{
+  color: #fff;
+}
+.contenedor-header-quienes .contenedor-cuenta button.btn.btn-default{
+  background: #4D5659;
+  color:#fff;
+}
+.titulo-quienes{
+  font-size: 52pt;
+  font-family: 'GothamHTFXLight';
+  color:#fff;
+  border-bottom:1px solid #fff;
+  line-height: 74px;
+  height: 100px;
+  margin-top: 80px;
+}
+.columna-izquierda{
+  margin-top: 40px;
+  font-family: 'Gotham Thin';
+  text-align: justify;
+}
+.texto-grande-quienes{
+  font-size: 19px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  color: #fff; 
+  width: 94%;
+}
+.texto-peque-quienes{
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: .8px;
+  color: #fff;
+  width: 94%;
+}
+.columna-derecha{
+  margin-top: 40px;
+  text-align: justify;
+}
+.parte1-biografia {
+    margin-top: 80px;
+}
+.texto-resaltado{
+  color: #55C5D8;
+  font-family: 'Gotham Light';
+  font-size: 15.75pt;
+  letter-spacing: 1px;
+}
+.texto-normal-derecha{
+  font-family: 'Gotham Thin';
+  font-size: 11.25pt;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 30px;
+}
+.parte2-quienes .texto-quienes{
+  border-top:1px solid #fff;
+  margin-top: 40px;
+}
+.title-quienes-parte2{
+  font-family: 'GothamHTFXLight';
+  font-size: 38.25pt;
+  color: #fff;
+  margin-left: 13px;
+}
+.parte2-quienes .texto-resaltado{
+  width: 100%;
+}
+.parte2-quienes .texto-normal-derecha{
+  width: 100%;
+}
+.title-quienes-parte3 {
+    border-top: 1px solid #fff;
+    color: #55C5D8;
+    font-family: 'GothamHTFXLight';
+    font-size: 38.25pt;
+    margin: 50px 0;
+    line-height: 125px;
+}
+.caja-quienes{
+  display: inline-block;
+  width: 30%;
+}
+.cajas-quienes {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  height: 416px;
+}
+.caja-quienes .nombre {
+  text-align: center;
+  display: block;
+  font-family: 'Gotham Thin';
+  font-size: 15pt;
+  width: 76%;
+  color: #fff;
+  border-bottom: 1px solid #55C5D8;
+  margin: 30px auto 0 auto;
+  line-height: 42px;
+  letter-spacing: 1px;
+}
+.caja-quienes .cargo{
+  font-size: 15pt;
+  font-family: 'Gotham Medium';
+  color: #fff;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.boxes-quienes{
+  margin-top: 60px;
+  width: 90%;
+}
+
+.row.cajas-3-quienes {
+  margin: 0px 0px 0 0px;
+  background: #fff;
+  padding: 0 0px 0 10px !important;
+}
+.espacio {
+  width: 100%;
+  height: 297px;
+  background: #fff;
+  margin-top: -103px;
+}
+/*--------- FIN QUIENES SOMOS -------------*/
+
+/*--------- INICIO BIOGRAFIA -------------*/
+.container.contenedor-biografia {
+    margin-top: 85px;
+}
+.ancho-header{
+  background: #4D5659;
+}
+.ancho-header header{
+  background: #4D5659 !important;
+}
+.titulo-biografia{
+  font-family: 'GothamHTFXLight';
+  font-size: 32.25pt;
+  float: right;
+  color: #4D5659;
+  margin-top: 100px;
+}
+.imagen-persona{
+  float: left;
+  width: 15%;
+}
+.datos-persona{
+  float: left;
+  width: 25%;
+  margin-top: 65px;
+}
+.nombre-persona{
+  font-size: 17.5125pt;
+  font-family: 'Gotham Thin';
+  color: #606060;
+  line-height: 26px;
+  border-bottom: 2px solid #606060;
+  letter-spacing: 1px;
+}
+.cargo-persona{
+  font-family: 'Gotham Medium';
+  font-size: 18.2625pt;
+  color: #55C5D8;
+  letter-spacing: 1px;
+  margin: 10px 0 5px 0; 
+}
+.roll-persona{
+  font-size: 13.5675pt;
+  font-family: 'Gotham Thin';
+  letter-spacing: 1px;
+}
+.linea-curriculum {
+    height: 1px;
+    width: 79%;
+    background: #55C5D8;
+    float: left;
+    margin: 28px 0;
+}
+.title-curriculum {
+    font-family: 'GothamHTFXLight';
+    font-size: 23.085pt;
+    width: 19%;
+    float: left;
+    margin-left: 22px;
+}
+.texto-grande-biografia{
+  font-family: 'Gotham Thin';
+  font-size: 14.25pt;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 34px;
+  color: #6D6D6D;
+  width: 94%;
+}
+.texto-peque-biografia{
+  font-family: 'Gotham Thin';
+  font-size: 12.75pt;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 34px;
+  color: #6D6D6D;
+  width: 94%;
+}
+.title-derecha{
+  font-size: 15.75pt;
+  font-family: 'Gotham Medium';
+  line-height: 28px;
+  letter-spacing: 1.5px;
+  color: #4D5659;
+  text-align: justify;
+}
+.texto-derecha{
+  font-family: 'Gotham Thin';
+  font-size: 11.25pt;
+  line-height: 28px;
+  letter-spacing: 1.5px;
+  text-align: justify;
+  margin-top: 35px;
+}
+.parte2-biografia{
+  margin-top: 80px;
+}
+.texto-ano{
+  text-align: right;
+}
+.title-ano{
+  font-family: 'Gotham Book';
+  font-size: 19.47pt;
+  color: #55C5D8;
+  border-bottom: 1px solid #55C5D8;
+  line-height: 27.3px;
+  letter-spacing: .5px;
+  width: 95%;
+  margin-left: 18px;
+}
+.subtitle-ano{
+  font-family: 'Gotham Light';
+  font-size: 15pt;
+  line-height: 17px;
+  letter-spacing: 4px;
+  margin-top: 15px;
+}
+.contenido-ano {
+    font-family: 'Gotham Light';
+    font-size: 9pt;
+    line-height: 19px;
+    letter-spacing: .5px;
+    text-align: justify;
+    width: 57%;
+    float: right;
+}
+
+.parte3-biografia{
+  margin-top: 80px;
+}
+.sub-articulos-biografia {
+    width: 61%;
+    float: left;
+}
+p.ano {
+    display: inline;
+}
+.articulos-biografia li.active p.ano {
+    color: #55C5D8;
+}
+ul.articulos-biografia {
+  margin: 0 0 0 12px;
+  border-bottom: 1px solid #55C5D8;
+  width: 100%;
+  line-height: 42px;
+  font-family: 'GothamHTFXLight';
+  font-size: 9.75pt;
+}
+.titulo-articulos-biografia{
+  font-size: 23.085pt;
+  font-family: 'GothamHTFXLight';
+  color: #4D5659;
+  line-height: 32px;
+  width: 39%;
+  float: left;
+  margin: 21px 0 0 0px;
+  letter-spacing: 2px;
+  text-align: right;
+}
+.titulo-ano-articulo{
+  font-family: 'GothamHTFXLight';
+  font-size: 23.085pt;
+  line-height: 32px;
+  color: #4D5659;
+  margin: 15px 20px 20px 20px;
+}
+.contenedor-cajas-biografia{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-top: 100px;
+    border-bottom: 1px solid #55C5D8;
+    height: 430px;
+}
+.contenedor-cajas-biografia.caja-2{
+ -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+.cajas-3-biografia {
+    margin-top: 113px;
+    margin-bottom: 175px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contendor-cajas-biografia{
+    width: 90%;
+    margin:auto;
+}
+/*--------- FIN BIOGRAFIA -------------*/
+
+/*--------- INICIO EVENTOS -------------*/
+.container.eventos {
+    margin-top: 160px;
+}
+.imagen-pagos {
+    text-align: center;
+    margin: 72px 0;
+}
+.sub-articulos-eventos {
+    width: 61%;
+    float: left;
+}
+.articulos-eventos li.active p.ano {
+    color: #55C5D8;
+}
+.titulo-articulos-eventos{
+  font-size: 32.25pt;
+  font-family: 'GothamHTFXLight';
+  color: #4D5659;
+  line-height: 32px;
+  width: 39%;
+  float: left;
+  margin: 21px 0 0 0px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+ul.articulos-eventos {
+    margin: 5px 0 0 12px;
+    border-bottom: 2px solid #4D5659;
+    width: 100%;
+    line-height: 42px;
+    font-family: 'GothamHTFXLight';
+    font-size: 9.75pt;
+}
+.contendor-cajas-eventos {
+    width: 75%;
+    margin: auto;
+}
+.cajas-3-eventos {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.texto-caja-eventos {
+    font-family: 'Gotham Light';
+    font-size: 11.34pt;
+    line-height: 23.52px;
+    letter-spacing: .5px;
+    text-align: justify;
+    padding: 7px 6px 0 6px;
+    border-top: 1.5px solid;
+    width: 93%;
+    margin: 23px auto 20px auto;
+}
+.contenedor-caja-3 {
+    padding: 0;
+}
+.ver-eventos{
+  float: right;
+  font-family: 'Gotham Book';
+  font-size: 12.75pt;
+  line-height: 21px;
+  letter-spacing: .8px;
+  color: #55C5D8;
+}
+.linea-eventos {
+  height: 1.5px;
+  width: 60%;
+  background: #4D5659;
+  float: left;
+  margin: 31px 0px;
+}
+.title-eventos-sub {
+  font-family: 'GothamHTFXLight';
+  font-size: 32.25pt;
+  width: 35%;
+  float: left;
+  margin-left: 22px;
+  color: #4D5659;
+}
+
+.imagen-caja-pequenia{
+  background-image: url(../images/imagen-caja-pequenia.png);
+  height: 339px;
+  width: 55%;
+  margin: -45px -20px;
+  display: inline-block;
+  float: left;
+}
+.contenedor-caja-imagen-pequenia {
+  width: 52%;
+  float: right;
+  margin-top: -22px;
+}
+.titulo-caja-imagen-pequenia {
+  font-size: 17pt;
+  font-family: 'Gotham Book';
+  line-height: 28px;
+  border-bottom: 1px solid #55C5D8;
+  height: 130px;
+  width: 100%;
+  margin-left: 10px;
+}
+.contenido-caja-imagen-pequenia {
+  width: 100%;
+  font-size: 9.3pt;
+  font-family: 'Gotham Light';
+  letter-spacing: 1px;
+  margin: 26px 0 23px 10px;
+  line-height: 22px; 
+}
+/*--------- FIN EVENTOS -------------*/
+
+/*--------- INICIO INTERNA EVENTOS -------------*/
+.container.interna-eventos {
+    margin-top: 85px;
+}
+.linea-interna-eventos {
+    height: 1.5px;
+    width: 61%;
+    background: #4D5659;
+    float: left;
+    margin: 31px 0;
+}
+.title-eventos-interna {
+    font-family: 'GothamHTFXLight';
+    font-size: 32.25pt;
+    width: 25%;
+    float: left;
+    margin-left: 22px;
+    color: #4D5659;
+}
+.fecha-evento-interna {
+    display: inline-block;
+}
+.fecha-evento-interna .dia-evento-interna{
+  font-family: 'Champagne & Limousines';
+  font-size: 85.5pt;
+  color: #4D5659;
+}
+.fecha-evento-interna .ano-mes-evento-interna {
+  font-family: 'Gotham Book';
+  font-size: 25.26pt;
+  color: #55C5D8;
+  margin-top: -36px;
+  line-height: 30px;
+  text-align: center;
+}
+.row.eventos-title-interna {
+  margin-top: 89px;
+}
+.sub-fecha{
+  font-size:12.75pt;
+  font-family: 'Gotham Thin';
+  color: #6D6D6D;
+  line-height: 25px;
+  letter-spacing: .5px;
+}
+.titulo-evento{
+  font-size: 39.1425pt;
+  line-height: 54.78px;
+  font-family: 'GothamHTFXLight';
+  color: #4D5659;
+  width: 60%;
+  margin: 15px 0 40px 0;
+}
+.descripcion-evento{
+  font-family: 'Gotham Thin';
+  line-height: 34px;
+  letter-spacing: .5px;
+  font-size: 14.25pt;
+  text-align: justify;
+  width: 90%;
+}
+.imagen-derecha {
+    margin: 63px auto 0 auto;
+}
+.texto-derecha {
+  font-family: 'Gotham Light';
+  font-size: 10.125pt;
+  line-height: 21px;
+  letter-spacing: .5px;
+  text-align: justify;
+  width: 98%;
+  margin-left: 8px;
+}
+.info-evento-derecha{
+  font-family: 'Gotham Medium';
+  letter-spacing: .5px;
+  line-height: 25px;
+  font-size: 11.25pt;
+  text-align: center;
+  width: 75%;
+}
+
+.row.eventos-title-interna {
+  margin-top: 89px;
+}
+.row.parte3-interna {
+    margin-top: 80px;
+}
+.nombre-conferencista{
+  font-family: 'Gotham Thin';
+  line-height: 38px;
+  letter-spacing: .5px;
+  font-size: 13.5pt;
+  border-bottom: 1px solid #55C5D8;
+  width: 90%;
+  margin-left: 18px;
+  color: #606060;
+}
+.cargo-conferencista{
+  font-size: 13.5pt;
+  font-family: 'Gotham Medium';
+  line-height: 38px;
+  letter-spacing: .5px;
+  margin-top: -10px;
+}
+.texto-conferencista {
+  float: left;
+  width: 70%;
+  text-align: center;
+  margin-top: 19px;
+  color: #606060;
+  border-right: 1.2px solid #4D5659;
+}
+.imagen-conferencista {
+    float: left;
+    width: 30%;
+}
+.caja-conferencista{
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.derecha-conferencista{
+  -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+.izquierda-conferencista{
+  -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    font-size: 11.34pt;
+    font-family: 'Gotham Light';
+    line-height: 23.52px;
+    letter-spacing: .5px;
+    color: #4D5659;
+}
+.linea-interna-separadora {
+    height: 1px;
+    width: 87%;
+    background: #4D5659;
+    float: left;
+    margin: 75px 0;
+}
+.contendor-cajas-interna {
+    width: 90%;
+    margin: auto;
+}
+.row.cajas-3-interna {
+  margin-top: 60px;
+  margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*--------- FIN INTERNA EVENTOS -------------*/
+
+/*--------- INICIO INTERNA ARTICULO -------------*/
+.container.interna-articulo {
+    margin-top: 95px;
+}
+.titulo-interna-articulo {
+  font-size: 52.5pt;
+  font-family: 'GothamHTFXLight';
+  line-height: 73.45px;
+  width: 60%;
+  margin-top: 88px;
+  margin-bottom: 40px;
+}
+.imagen-persona-articulo {
+    float: left;
+}
+.datos-persona-articulo {
+    float: left;
+    width: 16%;
+    text-align: center;
+    margin: 30px 0 0 8px;
+}
+.nombre-persona-articulo {
+    font-size: 9.9825pt;
+    font-family: 'Gotham Thin';
+    color: #606060;
+    line-height: 28px;
+    border-bottom: 1px solid #55C5D8;
+    letter-spacing: .5px;
+}
+.cargo-persona-articulo {
+    font-family: 'Gotham Medium';
+    color: #606060;
+    line-height: 28px;
+    letter-spacing: .5px;
+}
+.texto-articulo-normal{
+  font-family: 'Gotham Thin';
+  font-size: 14.25pt;
+  line-height: 34px;
+  letter-spacing: .5px;
+  width: 94%;
+  text-align: justify;
+  color: #4D5659;
+  margin:30px 0;
+}
+.texto-articulo-peque{
+  font-family: 'Gotham Thin';
+  font-size: 12.75pt;
+  line-height: 34px;
+  letter-spacing: .5px;
+  width: 94%;
+  text-align: justify;
+  color: #4D5659;
+  margin:30px 0;
+}
+.contenido-articulo {
+    border-top: 1px solid;
+}
+.columna-izquierda-interna-articulo {
+    margin-top: 39px;
+}
+.contenedor-caja-3-articulos {
+  padding: 0;
+  width: 90%;
+  float: right;
+  margin-top: 30px;
+}
+.title-bibliografia {
+  font-family: 'Gotham Medium';
+  color: #606060;
+  line-height: 28px;
+  letter-spacing: .5px;
+  font-size: 9.75pt;
+}
+.bibliografia-articulo li {
+  font-family: 'Gotham Thin';
+  font-size: 8.75pt;
+  line-height: 9px;
+  letter-spacing: .5px;
+  width: 94%;
+  text-align: justify;
+  color: #4D5659;
+  margin: 20px 0;
+}
+.bibliografia{
+  margin-bottom: 50px;
+}
+.linea-interna-articulos {
+  height: 1.5px;
+  width: 56%;
+  background: #4D5659;
+  float: left;
+  margin: 26px 0 37px 43px;
+}
+.title-articulos-interna {
+  font-family: 'GothamHTFXLight';
+  font-size: 23.25pt;
+  width: 35%;
+  float: left;
+  margin-left: 22px;
+  color: #4D5659;
+  text-align: right;
+}
+.titulo-documento {
+  font-family: 'Gotham Medium';
+  font-size: 10.305pt;
+  line-height: 14.45px;
+  letter-spacing: .3px;
+  color: #55C5D8;
+  width: 89%;
+}
+.documentos-relacionados {
+    width: 80%;
+    margin: 64px auto 0 auto;
+}
+.documento{
+  text-align: center;
+}
+.titulo-link{
+  font-size: 8.64pt;
+  font-family: 'Gotham Medium';
+  line-height: 11px;
+  letter-spacing: .3px;
+  margin-top: 23px;
+}
+.documento a, .documento a:link{
+  font-size: 8.64pt;
+  width: 60%;
+}
+
+.botones-login button {
+  margin: 2px;
+}
+/*--------- FIN INTERNA ARTICULO -------------*/
+
+/*--------- INCIO DEBATE -------------*/
+.container.debate {
+    margin-top: 85px;
+}
+.row.debate {
+    margin-top: 89px;
+}
+.linea-debate {
+    height: 1.5px;
+    width: 82%;
+    background: #4D5659;
+    float: left;
+    margin: 31px 0;
+}
+.title-debate {
+    font-family: 'GothamHTFXLight';
+    font-size: 32.25pt;
+    width: 15%;
+    float: left;
+    margin-left: 22px;
+    color: #4D5659;
+}
+.fecha-debate{
+  font-size: 12.75pt;
+  font-family: 'Gotham Thin';
+  line-height: 25px;
+  letter-spacing: .5px;
+  color: #6D6D6D;
+}
+.titulo-debate{
+  font-size: 36pt;
+  font-family: 'GothamHTFXLight';
+  line-height: 75px;
+}
+.texto-debate{
+  margin-top: 55px;
+  text-align: justify;
+  width: 96%;
+}
+.texto-debate .normal-debate{
+  font-family: 'Gotham Thin';
+  font-size: 18pt;
+  line-height: 34px;
+  letter-spacing: .5px;
+  color: #4D5659;
+}
+.texto-debate .peque-debate{
+  font-family: 'Gotham Thin';
+  font-size: 9pt;
+  line-height: 25px;
+  letter-spacing: .5px;
+  color: #4D5659;
+}
+.linea-debate-comentarios {
+    height: 1.5px;
+    width: 71%;
+    background: #4D5659;
+    float: left;
+    margin: 31px 0;
+}
+.title-debate-comentarios {
+    font-family: 'GothamHTFXLight';
+    font-size: 32.25pt;
+    width: 15%;
+    float: left;
+    margin-left: 22px;
+    color: #4D5659;
+}
+.titulo-comentario{
+  display: inline-block;
+}
+.titulo-comentario .azul{
+  font-family: 'Gotham Medium';
+  font-size: 12.75pt;
+  line-height: 23px;
+  letter-spacing: .5px;
+  color: #00C3DD;
+  float: left;
+  margin-right: 8px;
+}
+.titulo-comentario .negro{
+  font-family: 'Gotham Light';
+  font-size: 12.75pt;
+  line-height: 23px;
+  letter-spacing: .5px;
+  float: left;
+}
+.imagen-persona-comentario{
+  display: inline-block;
+}
+.texto-comentario{
+  font-family: 'Gotham Book';
+  line-height: 23px;
+  letter-spacing: .5px;
+  font-size: 12.75pt;
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify;
+}
+.fecha-comentario{
+  display: inline-block;
+  font-family: 'Gotham Thin';
+  line-height: 23px;
+  letter-spacing: .5px;
+  font-size: 12.75pt;
+  color: #00C3DD;
+}
+.footer-comentario {
+    border-bottom: 1px solid;
+}
+span.ojo {
+    margin: 0px 15px;
+}
+.responder, .respuesta{
+  font-size: 9.6225pt;
+  color: #00C3DD;
+  font-family: 'Gotham Book'; 
+  display: inline-block;
+  margin: 0 9px;
+}
+.respuesta span{
+  margin:0 18px; 
+}
+.comentario {
+    margin: 80px 0;
+}
+.respuesta-cometario {
+    margin: 25px 0 0 75px;
+}
+.respuesta-cometario .texto-comentario{
+  width: 100%;
+  margin-top: 15px;
+}
+.respuesta-cometario .responder{
+  margin: 0 24px;
+}
+.respuesta-cometario .respuesta{
+  margin: 0 24px;
+}
+.ver-mas-comentarios{
+  font-family: 'Gotham Light';
+  line-height: 17.35px;
+  letter-spacing: .5px;
+  color: #00C3DD;
+  font-size: 15.75pt;
+  text-align: center;
+  margin: 120px 0; 
+}
+.ver-mas-comentarios span{
+  color: #4D5659;
+}
+/*--------- FIN DEBATE -------------*/
+
+/*--------- INICIO DEBATES -------------*/
+.container.debates {
+    margin-top: 150px;
+}
+
+.fecha-debate{
+  font-family: 'GothamHTFXLight';
+  line-height: 13.48px;
+  font-size: 9.63pt;
+  color: #55C5D8;
+  margin-left: 8px
+}
+.participar-debates{
+  font-family: 'Gotham Book';
+  font-size: 12.75pt;
+  line-height: 21px;
+  letter-spacing: .8px;
+  color: #55C5D8;
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+}
+/*--------- FIN DEBATES -------------*/
+
+/*--------- INICIO REGISTRO -------------*/
+.titulo-registro{
+  font-family: 'GothamHTFXLight';
+  font-size: 26.1225pt;
+  line-height: 48.7px;
+  text-align: right;
+  margin: 150px 0 50px 0;  
+  color: #3399A3;
+}
+.container.registro {
+    width: 50%;
+}
+
+
+.styled-select {
+   overflow: hidden;
+}
+
+.styled-select select {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 29px;
+  padding: 5px; 
+  width: 268px;
+  margin: 25px 0 0 80px;
+}
+
+.styled-select.slate {
+  background: url(../images/flecha-abajo.png) no-repeat right center;
+  height: 74px;
+  width: 40%;
+  
+}
+.btn-crear{
+  text-align: right; 
+}
+.btn-registrar{
+  width: 126px;
+  height: 36px;
+  background-color: #55C5D8;
+  border:none;
+  border-radius: 0;
+  font-family: 'GothamHTFXLight';
+  font-size: 7.5pt; 
+  color: #fff;
+}
+.btn-cancelar{
+  text-align: left;
+}
+.btn-can{
+  width: 126px;
+  height: 36px;
+  background-color: #55C5D8;
+  border:none;
+  border-radius: 0;
+  font-family: 'GothamHTFXLight';
+  font-size: 7.5pt; 
+  color: #fff;
+}
+.botones {
+    margin: 50px 0;
+}
+.form-registro label, select{
+  line-height: 17.24px;
+  font-family: 'GothamHTFXLight';
+  font-size: 12.66pt;
+}
+.form-registro input, textarea.form-control{
+  background: #F5F5F5;
+  color: #A0A0A0;
+  line-height: 17.24px;
+  font-family: 'GothamHTFXLight';
+  font-size: 10.5pt;
+  border:none;
+  border-radius: 2px;
+}
+textarea.form-control{
+    max-height: 97px;
+    max-width: 751px;
+}
+/*--------- FIN REGISTRO -------------*/
+
+/*--------- INICIO CREAR ARTICULO -------------*/
+.btn-guardar-borrador {
+    text-align: right;
+}
+.btn-borrador {
+    width: 147px;
+    height: 36px;
+    background-color: #55C5D8;
+    border: none;
+    border-radius: 0;
+    font-family: 'GothamHTFXLight';
+    font-size: 7.5pt;
+    color: #fff;
+}
+.btn-enviar {
+    text-align: left;
+}
+.btn-enviar-comite {
+    width: 147px;
+    height: 36px;
+    background-color: #55C5D8;
+    border: none;
+    border-radius: 0;
+    font-family: 'GothamHTFXLight';
+    font-size: 7.5pt;
+    color: #fff;
+}
+/*--------- FIN CREAR ARTICULO -------------*/
+
+/*--------- INICIO INSTRUCTIVO -------------*/
+.contendor-imagenes{
+  float: right;
+  margin-top: 40px;
+}
+.imagen1{
+  background-image: url(/web/images/imagen1.jpg);
+  width: 552px;
+  height: 318px;
+}
+.imagen2{
+  background-image: url(/web/images/imagen2.jpg);
+  width: 552px;
+  height: 318px;
+  cursor: pointer;
+}
+.imagen3{
+  background-image: url(/web/images/imagen3.jpg);
+  width: 552px;
+  height: 318px;
+  cursor: pointer;
+}
+.imagen4{
+  background-image: url(/web/images/imagen4.jpg);
+  width: 552px;
+  height: 318px;
+  cursor: pointer;
+}
+.imagen5{
+  background-image: url(/web/images/imagen5.jpg);
+  width: 552px;
+  height: 1049px;
+}
+.descripcion1{
+  display: none;
+}
+.contenedor-texto-instructivo {
+  margin-top: 40px;
+  position: fixed;
+  padding: 0;
+}
+.titulo-instructivo {
+    font-size: 55pt;
+    font-family: 'GothamHTFXLight';
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    line-height: 74px;
+    height: 80px;
+    margin-top: 170px;
+    margin-bottom: 20px;
+}
+.texto-peque-instructivo {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: .8px;
+    color: #fff;
+    width: 94%;
+    text-align: justify;
+}
+.modal-body {
+    position: relative;
+    padding: 3px;
+}
+/*--------- FIN INSTRUCTIVO -------------*/
+
+/*--------- INICIO RESPONSIVE -------------*/
+
+/*--------- INICIO RESOLUCIÓN MEDIA -------------*/
+@media (max-width: 1355px) and (min-width: 992px) {
+ 
+ /*--------- INICIO HOME -------------*/ 
+  .redes-caja-3 {
+      width: 25%;
+  }
+  .nav-justified>li {
+    width: 36.9%;
+  }
+  .categoria-blog-caja {
+    margin: 0px 0 5px 0;
+  }
+  .contenido-blog-caja {
+    width: 80%;
+    font-size: 9.3pt;
+  }
+  .texto-eventos-caja {
+    font-size: 9.3pt;
+    width: 77%;
+    margin: 27px 0 0 15px;
+  }
+  .flecha.eventos {
+    margin: -34px 2px 0 0;
+  }
+  .titulo-eventos-caja {
+    margin: 99px 0 0 65px;
+  }
+  .fecha-caja-info p{
+    margin:0;
+  }
+  .caja-2 .contenido-blog-caja{
+    font-size: 9.3pt;
+  }
+  .texto-info {
+    font-size: 9.5pt;
+    width: 95%;
+  }
+  p.info{
+    font-size: 10pt;
+  }
+  .texto-caja4 {
+    font-size: 13.5pt;
+  }
+
+ /*--------- FIN HOME -------------*/ 
+
+ /*--------- INICIO QUIENES SOMOS -------------*/ 
+  .title-quienes-parte2{
+    text-align: left;
+    font-size: 37.25pt;
+    margin: 0px 0 38px 0;
+  }
+ /*--------- FIN QUIENES SOMOS -------------*/
+
+ /*--------- INICIO BIOGRAFIA -------------*/
+  .linea-curriculum {
+    width: 75%;
+  }
+  .datos-persona{
+    margin-left: 10px;
+  }
+  .texto-grande-biografia {
+    font-size: 12.25pt;
+  }
+  .texto-peque-biografia {
+    font-size: 10.75pt;
+  }
+  .texto-derecha{
+    width: 90%;
+  }
+  .titulo-articulos-biografia {
+    font-size: 21.085pt;
+  }
+  .titulo-ano-articulo {
+    margin: 50px 20px 0 20px;
+  }
+  .contenedor-cajas-biografia{
+    margin-top: 60px;
+  }
+ /*--------- FIN BIOGRAFIA -------------*/
+
+ /*--------- INICIO EVENTOS -------------*/ 
+  .caja-3 .cruz-grande{
+    margin:0;
+  }
+  .title-eventos-sub{
+    width: 38%;
+    margin-left: 0;
+    text-align: center; 
+  }
+  .linea-eventos{
+    width: 62%;
+
+  }
+ /*--------- FIN EVENTOS -------------*/  
+
+ /*--------- INICIO INTERNA EVENTOS -------------*/  
+   .titulo-evento{
+    width: 80%;
+   }
+   .title-eventos-interna{
+    width: 35%;
+    text-align: center;
+   }
+   .descripcion-evento{
+    font-size: 13.25pt;
+   }
+   .linea-interna-separadora{
+    width: 100%;
+   }
+   .info-evento-derecha{
+    width: 90%;
+   }
+  .titulo-interna-articulo {
+    font-size: 52.5pt;
+  }
+/*--------- FIN INTERNA EVENTOS -------------*/  
+
+/*--------- INICIO INTERNA ARTICULOS -------------*/  
+
+  .texto-articulo-normal{
+    font-size: 12.25pt;
+  }
+  .texto-articulo-peque {
+    font-size: 10.75pt;
+  }
+  .linea-interna-articulos{
+    width: 44%;
+  }
+  .title-articulos-interna {
+    font-size: 27.25pt;
+    width: 50%;
+    margin-left: 0;
+}
+/*--------- FIN INTERNA ARTICULOS -------------*/  
+
+/*--------- INICIO DEBATE -------------*/ 
+  .linea-debate {
+    width: 78%;
+  }
+  .texto-debate .normal-debate {
+    font-size: 16pt;
+  }
+  .titulo-caja-imagen-pequenia {
+    text-align: justify;
+    line-height: 21px;
+    font-size: 15pt;
+  }
+  .contenido-caja-imagen-pequenia {
+    margin: 14px 0 14px 10px;
+    line-height: 19px;
+}
+
+/*--------- FIN DEBATE -------------*/ 
+}
+
+/*--------- FIN RESOLUCIÓN MEDIA -------------*/
+
+/*--------- INICIO IPAD -------------*/
+@media (max-width: 993px) and (min-width: 768px){
+
+/*--------- INICIO HOME -------------*/ 
+ .navbar-form .input-group>.form-control {
+    width: 126px;
+    margin-left: -80px;
+}
+  .caja-3:nth-of-type(3) {
+    width: 48%;
+  }
+  .busqueda {
+    padding-top: 0;
+  }
+  .big-box {
+    padding: 0px 3px;
+  }
+   .row.cajas-2 {
+    margin: 0 auto
+  }
+  .boton-cuenta {
+    float: left !important;
+  }  
+  .links-cuenta {
+   width: 134px;
+   font-size: 5pt;
+    margin: 6px 0 0 -50px;
+   text-align: left;
+  }
+  .caja{
+    margin:3px;
+  }
+  .cajas-1 .caja .fecha-evento .ano-mes-evento {
+    margin: -11px 0px 0 -32px;
+  }
+  .cajas-1 .caja .fecha-evento .dia-evento {
+    margin: 10px -10px 0 0;
+  }
+  .caja-grande .texto{
+    margin:0 50px 0 50px;
+  }
+  .flecha {
+    margin: 40px 38px 0 0;
+  }
+  .caja-grande {
+    height: 438px;
+    margin-bottom: 3px;
+  }
+  .fecha-evento .dia-evento {
+    font-size: 40pt;
+  }
+  .titulo-eventos-caja {
+    margin: 50px 0 0 65px;
+  }
+  .caja-2 .fecha-evento .ano-mes-evento{
+    font-size: 17pt;
+    margin-top: -25px;
+    line-height: 25px;
+  }
+  .caja-2 {
+    margin: 3px;
+  }
+  .contenedor-caja-evento {
+      margin: 0px 0 4px 0px;
+  }
+  .caja-3-evento {
+    margin-top: 4px;
+  }
+  .contenedor-caja-evento.peque {
+    margin: 3px;
+  }
+  .caja-2 .cruz-grande {
+    margin: 21px -7px 0 0;
+  }
+  .fecha-blog-caja {
+    margin-top: 13px;
+    width: 42%;
+    display: inline-block;
+  }
+  .redes-caja {
+    width: 55%;
+  }
+  .caja-2 .contenido-blog-caja {
+    font-size: 9.3pt;
+    line-height: 20px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .caja-3{
+    margin:4px;
+  }
+  .caja-4 {
+    margin: 3px;
+  }
+  .contenido-blog-caja{
+    width: 100%;
+  }
+  .texto-caja4 {
+    font-size: 13.5pt;
+    width: 100%;
+    margin: 42px auto 0 auto;
+  }
+/*--------- FIN HOME -------------*/  
+
+/*--------- INICIO QUIENES SOMOS -------------*/  
+
+   .datos-persona{
+    margin-left: 20px;
+   }
+  .titulo-quienes {
+    font-size: 47pt;
+    width: 90%;
+    text-align: center;
+    margin: 80px auto 0 auto;
+  }
+  .texto-grande-quienes {
+    font-size: 17px;
+    margin: 15px auto;
+    width: 94%;
+  }
+  .texto-peque-quienes {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .texto-resaltado {
+    margin: 0 auto;
+    width: 94%;
+  }
+  .texto-normal-derecha {
+    margin: 17px auto;
+    width: 94%;
+  }
+  .parte2-quienes .texto-quienes {
+    width: 82%;
+    margin: 40px auto 0 auto;
+  }
+  .title-quienes-parte2 {
+    margin: 0px auto 20px auto;
+    width: 94%;
+  }
+  .title-quienes-parte3 {
+    margin: 50px auto;
+    width: 94%;
+    text-align: center;
+  }
+  .caja-quienes .nombre{
+    width: 77%;
+    line-height: 26px;
+  }
+ /*--------- FIN QUIENES SOMOS -------------*/ 
+
+ /*--------- INICIO BIOGRAFIA -------------*/   
+ .titulo-biografia {
+    float: none;
+    text-align: center;
+    margin: 60px 0 0 0;
+  }
+  .row.datos-biografia.articulos {
+    display: block;
+    margin: 35px auto;
+  }
+  .nombre-persona.articulos {
+    font-size: 9.512pt;
+    width: 60%;
+  }
+  .cargo-persona.articulos {
+    font-size: 12pt;
+  }
+  .datos-persona.articulos {
+    margin: 54px 0px 0 12px;
+    width: 40%;
+  }
+  .datos-biografia{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .imagen-persona{
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  }
+ .datos-persona{
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  } 
+  .linea-curriculum {
+    width: 67%;
+    margin: 70px 0;
+  }
+  .title-curriculum {
+    margin-top: 45px;
+  }
+  .texto-grande-biografia {
+    font-size: 12.25pt;
+    line-height: 29px;
+    width: 97%;
+  }
+  .title-derecha {
+    font-size: 13.75pt;
+  }
+  .texto-derecha{
+    width: 92%;
+  }
+  .contenedor-ano {
+    margin-right: 24px;
+  }
+  .titulo-articulos-biografia {
+    font-size: 18.085pt;
+    margin: 21px 0 0 0px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: 23px;
+  }
+  .sub-articulos-biografia {
+    width: 57%;
+  }
+  .titulo-ano-articulo{
+    margin: 20px 20px 0px 20px;
+  }
+  .contenedor-cajas-biografia{
+    margin-top: 20px;
+  }
+  .contendor-cajas-biografia{
+    margin:0 auto;
+  }
+  .caja-3 .fecha-evento .dia-evento {
+    margin-bottom: 23px;
+  }
+/*--------- INICIO BIOGRAFIA -------------*/ 
+
+/*--------- INICIO INTERNA ARTICULO -------------*/ 
+.titulo-interna-articulo {
+    font-size: 44.5pt;
+    font-family: 'GothamHTFXLight';
+    line-height: 73.45px;
+    width: 100%;
+    margin-top: 88px;
+    margin-bottom: 40px;
+  }
+  .datos-biografia-articulo{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .imagen-persona-articulo{
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  }
+    .datos-persona-articulo{
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  }
+  .texto-articulo-normal {
+    font-size: 12.25pt;
+    line-height: 26px;
+    margin: 30px auto;
+  }
+  .texto-articulo-peque {
+    font-size: 10.75pt;
+    margin: 20px auto;
+  }
+  .bibliografia {
+    margin: 50px auto;
+    width: 93%;
+  }
+  .contenedor-caja-3-articulos {
+    margin-top: 47px;
+  }
+  .title-articulos-interna {
+    font-size: 28.25pt; 
+    line-height: 40px;
+    text-align: right;
+  }
+  .linea-interna-articulos {
+    margin: 55px 0 0 0;
+  }
+  .espacio {
+    height: 221px;
+  }
+/*--------- FIN INTERNA ARTICULO -------------*/ 
+
+/*--------- FIN ARTICULOS -------------*/ 
+  .titulo-articulos-eventos.login {
+    font-size: 24pt;
+  }
+  .titulo-articulos-eventos {
+    font-size: 28.25pt;
+    width: 40%;
+    margin: 21px 0 0 14px;
+    letter-spacing: 1px;
+  }
+  .sub-articulos-eventos {
+    width: 58%;
+    float: left;
+  }
+  .participar-debates{
+    margin-bottom: 44px;
+  }
+  .title-eventos-sub{
+    width: 40%;
+    font-size: 28.5px;
+    margin-left: 15px;
+  }
+  .linea-eventos{
+    width: 57%;
+    margin: 25px 0px;
+  }
+/*--------- FIN ARTICULOS -------------*/ 
+
+/*--------- INICIO EVENTOS -------------*/ 
+  .contenedor-caja-3 {
+      margin: 20px 0;
+  }
+/*--------- FIN EVENTOS -------------*/ 
+
+/*--------- INICIO INTERNA EVENTOS -------------*/ 
+
+  .title-eventos-interna {
+    font-size: 28.25pt;
+    width: 35%;
+  }
+  .fecha-evento-interna .dia-evento-interna {
+    font-size: 60.5pt;
+  }
+  .fecha-evento-interna .ano-mes-evento-interna {
+    font-size: 15.26pt;
+  }
+  .sub-fecha {
+    font-size: 9.75pt;
+  }
+  .titulo-evento {
+    font-size: 39.1425pt;
+  }
+
+/*--------- FIN INTERNA EVENTOS -------------*/ 
+
+/*--------- INICIO DEBATE -------------*/ 
+  .linea-debate {
+      width: 72%;
+  }  
+  .titulo-debate {
+      font-size: 27pt;
+  }
+  .texto-debate .normal-debate {
+    font-size: 15pt;
+  }
+  .linea-debate-comentarios {
+    width: 58%;
+    margin: 39px 0;
+  }
+  .contenedor-caja-3-articulos {
+    width: 90%;
+  }
+  .ver-mas-comentarios {
+    margin: 103px 0 55px 0;
+  }
+  .columna-derecha-debate {
+    margin-bottom: 40px;
+  }
+/*--------- FIN DEBATE -------------*/ 
+
+}
+/*--------- FIN IPAD -------------*/
+
+/*--------- INICIO CELULAR -------------*/
+@media(max-width: 768px){
+
+/*--------- INICIO HOME -------------*/ 
+  .container.contenido {
+      width: 100%;
+      margin-top: 90px;
+  }
+  .titulo-blog-caja {
+      font-size: 15.46pt;
+      line-height: 25px;
+      height: 55px;
+  }
+  .title-caja4 {
+    font-size: 18.5pt;
+  }
+  .row.formulario {
+    margin: 131px auto 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  .fecha-blog-caja .ano-mes {
+    margin-left: 2px;
+  }
+  .container.contenido-quienes {
+    margin-top: 116px;
+  }
+   .datos-persona{
+    margin-left: 20px;
+   }
+  .contenedor-caja-evento {
+    padding: 0 3px;
+    height: 330px;
+    margin: 10px auto 10px auto;
+  }
+  .caja-grande .titulo {
+    width: 50%;
+    font-size: 28.32pt;
+    line-height: 36px;
+    height: 100px;
+    margin: 40px;
+  }
+    .ver {
+    text-align: right;
+    display: block;
+    }
+  .texto-caja4 {
+    width: 100%;
+    letter-spacing: 1px;
+  }
+  .caja-grande .texto {
+    font-size: 10.3pt;
+    margin: 0px 0 0px 41px;
+  }
+  .flecha {
+    margin: 25px 38px 0 0;
+  }
+  .caja-grande {
+    height: 355px;
+    margin-bottom: 10px;
+  }
+  .caja {
+    margin-bottom: 10px;
+  }
+  .titulo-caja-imagen {
+    font-size: 13pt;
+    line-height: 28px;
+    height: 120px;
+  }
+  .caja .fecha-evento .dia-evento {
+    font-size: 60pt;
+  } 
+  .caja .fecha-evento .ano-mes-evento {
+    margin-left: -60px;
+    font-size: 21pt;
+  } 
+  .cruz {
+    margin-top: 30px;
+  }
+  .titulo-foro-caja {
+    margin: 59px 0 0 25px;
+  }
+  .texto-caja-foro {
+    margin: 50px 0 0 20px;
+  }
+  .texto-eventos-caja {
+    margin: 50px 0 0 20px;
+  }
+  .titulo-eventos-caja {
+    margin: 35px 0 0 77px;
+  }
+  .caja-2 {
+    margin: 8px 6px 8px 3px;
+  }
+  .caja-2 .fecha-evento .dia-evento {
+    font-size: 60pt;
+  } 
+  .caja-2 .fecha-evento .ano-mes-evento {
+    margin-left: -60px;
+    font-size: 21pt;
+  }  
+  .caja-2 .ver{
+    text-align: right;
+  }
+
+  .redes-caja-3 {
+    width: 35%;
+  }
+  .fecha-caja-info {
+    width: 100%;
+  }
+  .caja-3 {
+    margin: 3px 3px 8px 3px;
+  }
+  .caja-3 .fecha-evento .dia-evento {
+    font-size: 60pt;
+  } 
+  .caja-3 .fecha-evento .ano-mes-evento {
+    margin-left: -20px;
+    font-size: 21pt;
+  } 
+  .caja-3 .cruz-grande {
+    margin: 25px 0 0 0;
+  }
+  p.info {
+    margin: 15px auto;
+  }
+  .texto-info {
+    line-height: 22px;
+    margin: 0px auto;
+  }
+  .caja-4 {
+    margin: 8px 3px 8px 3px;
+  }
+  .caja-4 .ver {
+    text-align: right;
+    display: block;
+    margin-top: 21px;
+  }
+  .logo-footer img {
+    width: 107px;
+    height: 88px;
+  }
+  .telefonos:before {
+      margin: -7px 0 0 -45px;
+  }
+  .derechos-autor {
+    margin: 40px auto;
+  }
+
+/*--------- FIN HOME -------------*/  
+
+/*--------- INICIO QUIENES SOMOS -------------*/ 
+  .titulo-quienes {
+    font-size: 30pt;
+    margin-top: 40px;
+    margin: 0 auto;
+    width: 82%;
+    height: 94px;
+  }
+  .texto-grande-quienes {
+    font-size: 13px;
+    margin: 10px auto;
+    letter-spacing: 0px;
+    line-height: 26px;
+    width: 85%;
+  }
+  .texto-peque-quienes {
+    font-size: 11px;
+    margin: 17px auto;
+    width: 85%;
+  }
+  .texto-resaltado {
+    font-size: 11.75pt;
+    margin: 19px auto;
+    width: 85%;
+    letter-spacing: 0px;
+  }
+  .texto-normal-derecha {
+    font-size: 9.25pt;
+    margin: 0 auto;
+    width: 85%;
+    letter-spacing: 0px;
+    line-height: 26px;
+  }
+  .title-quienes-parte2 {
+    font-size: 22.25pt;
+    margin: 20px auto;
+    width: 100%;
+  }
+  .title-quienes-parte3 {
+    border-top: 1px solid #fff;
+    color: #55C5D8;
+    font-family: 'GothamHTFXLight';
+    font-size: 22.25pt;
+    margin: 50px auto;
+    line-height: 125px;
+    width: 82%;
+  }
+  .cajas-quienes{
+    height: auto;
+    width: 100%;
+  }
+  .caja-quienes{
+    width: 100%;
+    margin: 20px 0;
+  }
+  .cajas-3-quienes .redes-caja-3 {
+    width: 40%;
+  }
+/*--------- FIN QUIENES SOMOS -------------*/   
+
+ /*--------- INICIO BIOGRAFIA -------------*/   
+ .titulo-biografia {
+    float: none;
+    text-align: center;
+    margin: 60px 0 0 0;
+  }
+  .datos-biografia{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .imagen-persona{
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  }
+ .datos-persona{
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  } 
+  .linea-curriculum {
+    width: 60%;
+    margin: 70px 0;
+  }
+  .title-curriculum {
+    margin-top: 45px;
+    font-size: 21.085pt;
+  }
+  .texto-grande-biografia {
+    font-size: 11.25pt;
+    line-height: 29px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .title-derecha {
+    font-size: 12.75pt;
+    letter-spacing: 1px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .texto-derecha {
+    width: 90%;
+    margin: 18px auto;
+  }
+  .contenedor-ano {
+    margin-right: 24px;
+  }
+  .titulo-articulos-biografia {
+    display: none;
+  }
+  .sub-articulos-biografia {
+    width: 57%;
+  }
+  .titulo-ano-articulo {
+    margin: 55px 20px 25px 20px;
+  }
+  .contenedor-cajas-biografia{
+    margin: 20px 0 0 0;
+    border: none;
+    display: block;
+  }
+  .contenedor-cajas-biografia .caja-2{
+
+  }
+  .caja-3 .fecha-evento .dia-evento {
+    margin-bottom: 23px;
+  }
+  .texto-peque-biografia {
+    font-size: 9.75pt;
+    line-height: 27px;
+    width: 90%;
+    margin: 15px auto;
+  }
+  .parte2-biografia {
+    margin-top: 25px;
+  }
+  .title-ano {
+    width: 91%;
+    margin-left: 39px;
+  }
+  .sub-articulos-biografia {
+      width: 96%;
+  }
+  .row.contenedora {
+    margin: 0 auto;
+  }
+  .parte3-biografia .cajas-2 {
+      margin: 0px auto 0 auto;
+      width: 85%;
+  }
+/*--------- INICIO BIOGRAFIA -------------*/ 
+
+/*--------- INICIO INTERNA ARTICULO -------------*/ 
+.titulo-interna-articulo {
+    font-size: 30.5pt;
+    width: 100%;
+    margin: 88px auto 40px auto;
+    }
+  .datos-biografia-articulo{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .imagen-persona-articulo{
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  }
+    .datos-persona-articulo{
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  }
+  .texto-articulo-normal {
+    font-size: 11.25pt;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin: 30px auto;
+  }
+  .texto-articulo-peque {
+    font-size: 9.75pt;
+    margin: 20px auto;
+    line-height: 26px;
+  }
+  .bibliografia {
+    margin: 50px auto;
+    width: 93%;
+  }
+  .contenedor-caja-3-articulos {
+    margin: 80px auto 0 auto;
+    float: none;
+  }
+  .title-articulos-interna {
+    font-size: 23.25pt;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    margin: 40px 0 0 0;
+  }
+  .linea-interna-articulos {
+    display: none;
+  }
+  .espacio {
+    height: 221px;
+  }
+/*--------- FIN INTERNA ARTICULO -------------*/ 
+
+/*--------- INICIO ARTICULO -------------*/ 
+  .sub-articulos-eventos {
+    width: 91%;
+  }
+  .titulo-articulos-eventos {
+    width: 95%;
+    margin: 60px auto 0 auto;
+    font-size: 26.25pt;
+  }
+  .datos-persona {
+    width: 54%;
+    margin-top: 25px;
+  }
+  .nombre-persona {
+    font-size: 13.5125pt;
+  }
+  .cargo-persona {
+    font-size: 13.2625pt;
+    margin: 10px 0 13px 0;
+  }
+  .contenedor-caja-3 {
+    margin-bottom: 40px;
+  }
+  .cajas-3-eventos {  
+    margin-bottom: 40px;
+    margin-top: 63px;
+  }
+  .linea-eventos {
+    width: 100%;
+  }
+  .title-eventos-sub{
+    width: 90%;
+    text-align: center;
+    font-size: 26.25pt;
+  }
+  .ver-eventos{
+    float: none;
+    text-align: center; 
+    display: block;
+  }
+  ul.articulos-eventos {
+    font-size: 7.75pt;
+  }
+/*--------- FIN ARTICULO -------------*/ 
+
+/*--------- INICIO INTERNA EVENTOS -------------*/ 
+
+  .linea-interna-eventos{
+    display: none;
+  }
+  .title-eventos-interna {
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 30px; 
+  }
+  .fecha-evento-interna .dia-evento-interna {
+    width: 50%;
+    font-size: 60.5pt;
+    text-align: center;
+  }
+  .fecha-evento-interna .ano-mes-evento-interna {
+    font-size: 15.26pt;
+    margin-top: -28px;  
+  }
+  .row.eventos-title-interna {
+    margin: 40px 0 40px 0;
+  }
+  .titulo-evento {
+    font-size: 33.1425pt;
+    width: 100%;
+    margin: 14px 0 40px 0;
+  }
+  .sub-fecha {
+    font-size: 11.75pt;
+    margin-top: 20px;
+  }
+  .descripcion-evento{
+    margin: 0 auto;
+    font-size: 12.25pt;
+  }
+  .parte2-interna {
+    margin: 0 auto;
+  }
+  .info-evento-derecha{
+    width: 100%;
+  }
+  .texto-derecha-eventos {
+    margin-bottom: 30px;
+  }
+  .imagen-pagos-interna img {
+    width: 258px;
+  }
+  .imagen-derecha img {
+    width: 258px;
+  }
+  .caja-conferencista{
+    display: block;
+    text-align: center; 
+    margin: 0 auto;
+  }
+  .izquierda-conferencista{
+    text-align: justify;  
+  }
+  .texto-conferencista{
+    border:none;
+  }
+  .cajas-conferencistas {
+    margin: 0 auto;
+    display: block;
+    width: 91%;
+  }
+  .linea-interna-separadora{
+    width: 100%;
+    margin: 51px 0;
+  }
+  .cajas-3-interna{
+    margin-left: 0px;
+  }
+/*--------- FIN INTERNA EVENTOS -------------*/
+
+/*--------- INICIO DEBATE -------------*/ 
+  .linea-debate {
+    height: 1.5px;
+    width: 70%;
+    background: #4D5659;
+    float: left;
+    margin: 31px 0;
+  }
+  .titulo-debate {
+    font-size: 23pt;
+    font-family: 'GothamHTFXLight';
+    line-height: 40px;
+    margin: 19px auto;
+    width: 92%;
+  }
+  .texto-debate {
+    margin-top: 65px;
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .texto-debate .normal-debate{
+    font-size: 13pt
+  }
+  .linea-debate-comentarios{
+    display: none;  
+  }
+  .debate-2{
+    margin: 30px 0 0 0;
+  }
+  .title-debate-comentarios{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .texto-comentario{
+    font-size: 10.75pt;
+  }
+  .fecha-comentario{
+    font-size: 9.75pt;
+  }
+
+/*--------- FIN DEBATE -------------*/
+
+/*--------- FIN REGISTRO -------------*/
+  .container.registro {
+      width: 80%;
+  }
+  .styled-select.slate{
+    width: 80%; 
+  }
+  .btn-registrar {
+    width: 112px;
+  }
+  .btn-can {
+    width: 112px;
+  }
+
+/*--------- FIN REGISTRO -------------*/
+
+/*--------- INICIO INSTRUCTIVO -------------*/
+  .titulo-instructivo {
+    font-size: 32pt;
+  }
+  .contenedor-texto-instructivo {
+    margin-top: 20px;
+    position: relative;
+  }
+  .texto-resaltado {
+    width: 100%;
+  }
+  .contendor-imagenes {
+    width: 75%;
+    margin: 20px auto;
+  }
+  .imagen1{
+  background-image: url(/web/images/imagen1-res.jpg);
+  width: 350px;
+  height: 203px;
+}
+.imagen2{
+  background-image: url(/web/images/imagen2-res.jpg);
+  width: 350px;
+  height: 203px;
+}
+.imagen3{
+  background-image: url(/web/images/imagen3-res.jpg);
+  width: 350px;
+  height: 203px;
+}
+.imagen4{
+  background-image: url(/web/images/imagen4-res.jpg);
+  width: 350px;
+  height: 203px;
+}
+.imagen5{
+  background-image: url(/web/images/imagen5-res.jpg);
+  width: 350px;
+  height: 668px;
+}
+
+/*--------- FIN INSTRUCTIVO -------------*/
+}
+
+/*--------- FIN CELULAR -------------*/
+
+/*--------- INICIO BREAK POINTS ADICIONALES -------------*/
+@media (max-width: 1355px) and (min-width: 992px) {
+  .linea-debate-comentarios {
+    width: 68%;
+  }
+  .titulo-articulos-eventos {
+    font-size: 29.25pt;
+  }
+  ul.articulos-eventos {
+    width: 90%;
+  }
+  .title-eventos-sub {
+    font-size: 26.25pt;
+  }
+  .linea-eventos {
+    width: 59%;
+  }
+  .contenido-blog-caja {
+    width: 100%;
+  }
+  .fecha-evento .dia-evento {
+    font-size: 60pt;
+  }
+  .fecha-evento .ano-mes-evento {
+    font-size: 20pt;
+  }
+  .titulo-eventos-caja {
+    margin: 83px 0 0 59px;
+  }
+
+  .cajas2 .caja-2 .contenido-blog-caja{
+    width: 100%;
+  }
+  .titulo-caja-imagen {
+      font-size: 15.9pt;
+  }
+  .row.contenedor-ano {
+    margin: 0px;
+  }
+
+}
+
+@media (max-width: 545px) and (min-width: 423px) {
+  .linea-curriculum {
+    width: 41%;
+    margin: 70px 0;
+  }
+  .contendor-cajas-biografia {
+    width: 86%;
+    margin: auto;
+  }
+    .imagen-derecha {
+    width: 66%;
+  }
+  .imagen-pagos-interna {
+    margin: 0 auto;
+    width: 60%;
+  }
+  .linea-debate {
+    width: 56%;
+  }
+  .caja-grande .titulo {
+    width: 35%;
+    font-size: 23.32pt;
+    line-height: 30px;
+    height: 100px;
+    margin: 40px;
+  } 
+  .caja .fecha-evento .ano-mes-evento {
+    margin-left: -22px;
+    font-size: 18pt;
+  }
+  .caja .fecha-evento .dia-evento {
+    font-size: 53pt;
+  }
+  .caja-2 .fecha-evento .ano-mes-evento {
+    margin-left: -22px;
+    font-size: 18pt;
+  }
+  .caja-2 .fecha-evento .dia-evento {
+    font-size: 53pt;
+  }
+
+
+}
+@media (max-width: 422px){
+  .parte2-quienes .texto-resaltado {
+    width: 84%;
+  }
+  .parte2-quienes .texto-normal-derecha {
+    width: 84%;
+  }
+  .title-quienes-parte2 {
+    width: 84%;
+  }
+  .container.contenido-quienes {
+    margin-top: 123px;
+  }
+  .caja-grande .titulo {
+    width: 28%;
+    font-size: 25.32pt;
+    line-height: 32px;
+    border:none;
+    height: 100px;
+  }
+  .caja-grande .icono {
+    margin: 36px;
+  }
+  .caja .fecha-evento .ano-mes-evento {
+    margin-left: -6px;
+    font-size: 19pt;
+  }
+  .caja .fecha-evento .dia-evento {
+    font-size: 49pt;
+  }
+  .texto-eventos-caja {
+    margin: 50px 0 0 20px;
+    width: 74%;
+  }
+  .caja-grande {
+    height: 370px;
+    margin-bottom: 10px;
+  }
+  .caja-2 .fecha-evento .ano-mes-evento {
+    margin-left: -3px;
+    font-size: 19pt;
+  }
+  .caja-2 .fecha-evento .dia-evento {
+    font-size: 59pt;
+  }
+  .fecha-caja-info p.dia {
+    font-size: 36.5pt;
+  }
+  .fecha-caja-info p.ano-mes {
+    font-size: 11.75pt;
+    line-height: 18px;
+  }
+  .texto-info {
+    font-size: 12.5pt
+  }
+  .contenido-blog-caja{
+    width: 90%;
+  }
+  .fecha-evento .dia-evento {
+    font-size: 61pt;
+  }
+    .titulo-quienes {
+    font-size: 20pt;
+    margin-top: 40px;
+    margin: 0 auto;
+    width: 85%;
+    height: 68px;
+  }
+  .texto-grande-biografia {
+    font-size: 11.25pt;
+    line-height: 26px;
+    letter-spacing: 0px;
+  }
+  .title-quienes-parte2 {
+    text-align: left;
+    font-size: 18pt;
+  }
+  .title-quienes-parte3 {
+    line-height: 40px;
+    font-size: 19pt;
+  }
+  .cajas-quienes {
+    height: auto;
+    width: auto;
+  }
+  .title-derecha {
+    font-size: 11.75pt;
+    letter-spacing: 0px;
+    width: 90%;
+    line-height: 24px;
+    margin: 0 auto;
+  }
+  .titulo-caja-imagen {
+    font-size: 11pt;
+  }
+  .linea-curriculum {
+    display: none;
+  }
+  .title-curriculum {
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 18.085pt;
+  }
+  .contenedor-ano {
+    width: 100%;
+    margin-right:0px; 
+  }
+  .parte3-biografia .cajas-2 {
+    margin: 0px auto 0 auto;
+  }
+  .titulo-biografia {
+    font-size: 26.25pt;
+  }
+  ul.articulos-biografia{
+    margin: 0;
+  }
+  .cargo-persona {
+    font-size: 9.2625pt;
+  }
+  .nombre-persona {
+    font-size: 9.5125pt;
+    line-height: 26px;
+  }
+  .roll-persona {
+    font-size: 9.5675pt;
+  }
+  .titulo-interna-articulo {
+    font-size: 18.5pt;
+    width: 100%;
+    margin: 25px auto 40px auto;
+    line-height: 48px;
+  }
+  .titulo-ano-articulo {
+    margin: 29px 20px 25px 20px;
+  }
+  .titulo-articulos-eventos {
+    margin: 36px auto 0 auto;
+    font-size: 25.25pt;
+  }
+  .title-eventos-sub {
+    width: 90%;
+    text-align: center;
+    font-size: 22.25pt;
+  }
+  .imagen-pagos img {
+    width: 220px;
+    margin: 0px auto 32px auto;
+  }
+  .imagen-pagos {
+    margin: 65px auto 32px auto;
+  }
+  .title-eventos-interna {
+    margin-bottom: 25px;
+    font-size: 25.25pt;
+  }
+  .izquierda-conferencista {
+    text-align: justify;
+    letter-spacing: 0px;
+    line-height: 26px;
+  }
+  .fecha-evento-interna .ano-mes-evento-interna {
+    margin-top: -28px;
+    font-size: 14pt;
+    line-height: 17px;
+  }
+  .caja-conferencista{
+    margin: 10px auto 20px auto;
+  }
+  .sub-fecha {
+    font-size: 9.75pt;
+    margin-top: 10px;
+  }
+  .linea-interna-separadora {
+    width: 90%;
+    margin: 41px auto;
+    float: none;
+  }
+  .row.eventos-title-interna {
+    margin: 40px 0 0px 0;
+  }
+  .titulo-evento {
+    font-size: 17.1425pt;
+    width: 100%;
+    margin: 0px 0 10px 0;
+  }
+  .descripcion-evento {
+    margin: 0 auto;
+    font-size: 11.25pt;
+    line-height: 26px;
+    letter-spacing: 0px;
+    width: 98%;
+  }
+  .caja-3 {
+    margin: 8px auto 8px auto;
+  }
+  .caja-3 .cruz-grande {
+    margin: 9px 0 0 0;
+  }
+  .imagen-derecha img {
+    width: 100%;
+  }
+  .imagen-pagos-interna img {
+    width: 232px;
+  }
+  .nombre-conferencista {
+    font-size: 10.5pt;
+    width: 92%;
+  }
+  .cargo-conferencista {
+    font-size: 11.5pt;
+    margin-left: 14px;
+    width: 100%;
+  }
+  .row.parte3-interna {
+    margin-right: 0;
+  }
+  .title-debate {
+    font-size: 27.25pt;
+  }
+  .contenedor-comentarios-debate {
+    margin-top: -35px;
+  }
+  span.ojo {
+    margin: 0px 0px; 
+  }
+  .responder, .respuesta {
+    margin: 0 4px;
+  }
+  .respuesta-cometario .responder {
+    margin: 0 0px;
+  }
+  .respuesta-cometario .respuesta {
+    margin: 0 -2px;
+  }
+  .titulo-registro {
+    font-size: 25.1225pt;
+  }
+  ul.articulos-eventos {
+    line-height: 27px;
+  }
+  .texto-debate .normal-debate {
+    font-size: 12pt;
+    line-height: 26px;
+    letter-spacing: 0px;
+  }
+  .datos-persona {
+    float: left;
+    width: 52%;
+    margin-top: 65px;
+  }
+  .contendor-cajas-biografia {
+    width: 76%;
+    margin: auto;
+  }
+  .texto-caja-eventos{
+    font-size: 10.34pt;
+  }
+  .fecha-evento-interna .dia-evento-interna {
+    font-size: 46.5pt;
+  }
+  .row.debate {
+    margin-top: 58px;
+  }
+  .linea-debate{
+    width: 55%;
+  }
+  .titulo-debate {
+    font-size: 16pt;
+    line-height: 30px;
+    margin: 19px auto;
+    width: 94%;
+  }
+  .texto-comentario {
+    font-size: 9.75pt;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+  .contenedor-caja-evento {
+    margin: 0px 0px 15px 0px;
+  }
+  .espacio{
+    display: none;
+  }
+  .row.cajas-3-quienes{
+    background: none;
+  }
+  .fecha-evento-interna{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .fecha-evento-interna .dia-evento-interna{
+    width: 100%;
+  }
+  .caja-grande .texto{
+    width: 80%;
+  }
+
+/*--------- INICIO INSTRUCTIVO -------------*/
+  .titulo-instructivo {
+    font-size: 30pt;
+  }
+  .contenedor-texto-instructivo {
+    margin-top: 20px;
+    position: static;
+  }
+  .texto-resaltado {
+    width: 100%;
+  }
+  .contendor-imagenes {
+    width: 100%;
+    float: left;
+    margin: 20px auto;
+  }
+  .imagen1{
+  background-image: url(/web/images/imagen1-cel.jpg);
+  width: 275px;
+  height: 157px;
+}
+.imagen2{
+  background-image: url(/web/images/imagen2-cel.jpg);
+  width: 275px;
+  height: 157px;
+}
+.imagen3{
+  background-image: url(/web/images/imagen3-cel.jpg);
+  width: 275px;
+  height: 157px;
+}
+.imagen4{
+  background-image: url(/web/images/imagen4-cel.jpg);
+  width: 275px;
+  height: 157px;
+}
+.imagen5{
+  background-image: url(/web/images/imagen5-cel.jpg);
+  width: 275px;
+  height: 524px;
+}
+.contendor-imagenes{
+  width: 88%;
+  float: right;
+  margin: 20px auto;
+}
+
+/*--------- FIN INSTRUCTIVO -------------*/
+
+}
+
+@media (max-width: 320px){
+  
+  .caja-grande {
+    height: 343px;
+    margin-bottom: 10px;
+  }
+  .caja-grande .titulo {
+      width: 16%;
+      font-size: 16.32pt;
+      line-height: 23px;
+      height: 61px;
+      margin: 26px 26px 38px 26px;
+  }
+  .titulo-eventos-caja {
+    margin: 35px 0 0 70px;
+    font-size: 20px;
+  }
+  .redes-caja {
+    width: 56%;
+  }
+  .fecha-blog-caja {  
+    width: auto;
+  }
+  .caja-2 .contenido-blog-caja{
+    width: 96%;
+  }
+  .caja-grande .texto {
+      width: 80%;
+      margin: 0 0 0 26px;
+  }
+  .texto-eventos-caja {
+      margin: 50px 0 0 19px;
+      width: 87%;
+  }
+  .redes-caja-3 {
+    width: 43%;
+  }
+  .titulo-caja-imagen {
+    font-size: 10pt;
+    line-height: 19px;
+    height: 110px;
+  }
+  .fecha-evento .dia-evento {
+    font-size: 50pt;
+  }
+  .fecha-evento .ano-mes-evento{
+    font-size: 21pt;
+  }
+  .contenido-caja-imagen {
+    font-size: 9.5pt;
+  }
+  .caja-3 .fecha-evento .dia-evento {
+    font-size: 52pt;
+  }
+  .caja-3 .fecha-evento .ano-mes-evento {
+    margin-left: -11px;
+    font-size: 18pt;
+  }
+  .texto-caja4 {
+    font-size: 13.5pt;
+  }
+  .contenido-blog-caja{
+    line-height: 19px;
+  }
+  .btn-can {
+    width: 90px;
+  }
+  .btn-registrar {
+    width: 91px;
+  }
+
+  .btn-guardar-borrador {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .btn-enviar {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .linea-curriculum{
+    display: none;
+  }
+  .linea-debate {
+    display: none;
+  }
+  .title-debate-comentarios {
+    font-size: 22pt;
+  }
+  .texto-debate .normal-debate {
+    font-size: 9pt;
+    line-height: 24px;
+  }
+  .titulo-comentario .azul{
+    font-size: 10.75pt;
+  }
+  .contendor-imagenes{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 790px) and (min-width: 768px){
+  .contenedor-caja-evento.peque {
+      height: 297px;
+  }
+  .row.cajas-3 {
+    margin: 0 auto;
+  }
+  .row.cajas-4 {
+    margin: 0 auto;
+  }
+  .caja .fecha-evento .dia-evento {
+    font-size: 49pt;
+  }
+  .caja .fecha-evento .ano-mes-evento {
+    font-size: 17pt;
+    line-height: 22px;
+  }
+  .texto-eventos-caja{
+    width: 84%;
+  }
+  .caja-2 .fecha-evento .ano-mes-evento {
+    margin-left: 5px;
+    line-height: 22px;
+    font-size: 16pt;
+    margin-top: -32px;
+  }
+  .caja-2 .fecha-evento .dia-evento {
+    font-size: 47pt;
+  }
+  .caja-2 .texto-evento-caja {
+    font-size: 17.5pt;
+  }
+  .contenedor-caja-evento {
+    margin: 0px 7px 4px 0px;
+    padding: 0;
+  }
+  .redes-caja {
+    width: 48%;
+  }
+  .fecha-blog-caja {
+    width: 49%;
+  }
+
+}
+/*--------- FIN BREAK POINTS ADICIONALES -------------*/
+
+/*--------- FIN RESPONSIVE -------------*/
+div#prin1 {
+    margin: 0;
+}
+
+                                                                                                             

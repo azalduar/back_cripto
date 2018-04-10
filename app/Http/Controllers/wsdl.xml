@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="urn:profiles" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="profiles" targetNamespace="urn:profiles">
+  <types>
+    <schema targetNamespace="urn:profiles" xmlns="http://www.w3.org/2001/XMLSchema">
+    </schema>
+  </types>
+  <message name="list">
+    <part name="user" type="xsd:int" xsi:nillable="true"/>
+  </message>
+  <message name="listResponse">
+    <part name="value" type="xsd:string" xsi:nillable="true"/>
+  </message>
+  <message name="check">
+    <part name="user" type="xsd:int" xsi:nillable="true"/>
+  </message>
+  <message name="checkResponse">
+    <part name="value" type="xsd:boolean" xsi:nillable="true"/>
+  </message>
+  <portType name="profiles_port">
+    <operation name="list">
+      <input message="tns:list"/>
+      <output message="tns:listResponse"/>
+    </operation>
+    <operation name="check">
+      <input message="tns:check"/>
+      <output message="tns:checkResponse"/>
+    </operation>
+  </portType>
+  <binding name="profiles_binding" type="tns:profiles_port">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="list">
+      <soap:operation soapAction="list"/>
+      <input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:profiles"/>
+      </input>
+      <output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:profiles"/>
+      </output>
+    </operation>
+    <operation name="check">
+      <soap:operation soapAction="check"/>
+      <input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:profiles"/>
+      </input>
+      <output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:profiles"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="service">
+    <port name="profiles_port" binding="tns:profiles_binding">
+      <soap:address location="http://192.168.1.5/profiles/action"/>
+    </port>
+  </service>
+</definitions>
